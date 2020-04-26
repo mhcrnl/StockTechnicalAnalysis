@@ -1,0 +1,86 @@
+Rock Pi 4 and Android TV
+<div class="bbWrapper">Rockpi.org has a newer Single Board Computer (SBC) called a Rock Pi 4.  The Rock Pi 4 supports the ability to be used as an Android TV as well as running Linux distros.<br />
+<br />
+    In this article, I will explain how to make an Android TV for the Rock Pi 4.<br />
+<br />
+<b>Hardware</b><br />
+<br />
+    The first thing we need to cover is the hardware.  The Rock Pi 4 consists of three models: A, B and C.  I am using Model B but the only difference to Model C is that the Model C board has a Mini DisplayPort which Model A...<br />
+<br />
+<a href="https://www.linux.org/threads/rock-pi-4-and-android-tv.28261/" class="link link--internal">https://www.linux.org/threads/rock-pi-4-and-android-tv.28261/</a></div>
+https://www.linux.org/threads/rock-pi-4-and-android-tv.28261/
+
+Create A LiveCD Media
+<div class="bbWrapper">Nearly everyone using Linux has come across a LiveCD of some type. If you haven't, a LiveCD is an ISO file that can be burned to a USB or CD and booted from to create a running version of Linux in RAM. This means you can use the Linux Distro in RAM and not install it.<br />
+<br />
+    You can also make an image to install to a hard disk.  The process will allow you to install specific programs into the image.  When Linux is installed you will have all of the custom programs already installed. Having the...<br />
+<br />
+<a href="https://www.linux.org/threads/create-a-livecd-media.28260/" class="link link--internal">https://www.linux.org/threads/create-a-livecd-media.28260/</a></div>
+https://www.linux.org/threads/create-a-livecd-media.28260/
+
+Intro and Installation of Kubernetes
+<div class="bbWrapper">Anyone using Docker can use Kubernetes to create a cluster.  A cluster is when there are multiple systems working together as a single unit.  If one system fails then the other systems will resume the failed processes to keep the resource active.<br />
+<br />
+    An example of a cluster would be multiple web servers acting as one web server.  If we had five servers managing a website.  One server may fail due to a physical hardware issue such as a hard disk failure.  The cluster will disregard the...<br />
+<br />
+<a href="https://www.linux.org/threads/intro-and-installation-of-kubernetes.27801/" class="link link--internal">https://www.linux.org/threads/intro-and-installation-of-kubernetes.27801/</a></div>
+https://www.linux.org/threads/intro-and-installation-of-kubernetes.27801/
+
+Add timestamp + change history size in your linux history
+<div class="bbWrapper">The Linux <code class="bbCodeInline">history</code> command is awesome by default, but you can make it better!   By default, it'll only hold about 1000 past commands, but you can increase that - you can also add time/date to it so you can see when you ran each command!<br />
+<br />
+In your ~/.bashrc file, simply add some lines like:<br />
+
+	
+	
+
+
+<div class="bbCodeBlock bbCodeBlock--screenLimited bbCodeBlock--code">
+	<div class="bbCodeBlock-title">
+		Code:
+	</div>
+	<div class="bbCodeBlock-content" dir="ltr">
+		<pre class="bbCodeCode" dir="ltr" data-xf-init="code-block" data-lang=""><code>HISTTIMEFORMAT=&quot;%F %T &quot;
+HISTFILESIZE=5000</code></pre>
+	</div>
+</div>Then, you'll have a 5000 line history file along with timestamps!  Give it a go and let me know how it goes!<br />
+<br />
+After you log out and back...<br />
+<br />
+<a href="https://www.linux.org/threads/add-timestamp-change-history-size-in-your-linux-history.27966/" class="link link--internal">https://www.linux.org/threads/add-timestamp-change-history-size-in-your-linux-history.27966/</a></div>
+https://www.linux.org/threads/add-timestamp-change-history-size-in-your-linux-history.27966/
+
+Find your top 10 linux commands in your history
+<div class="bbWrapper">Linux is a great thing that it'll keep a history of the commands you time in the ~/.bash_history file.  If you'd like to see the 10 top commands you use, you can run something like the following to see what you type out the most!<br />
+<br />
+<code class="bbCodeInline">cat ~/.bash_history | sort |uniq -c|sort -nr|head -n 10</code><br />
+<br />
+It should show something like this:<br />
+
+	
+	
+
+
+<div class="bbCodeBlock bbCodeBlock--screenLimited bbCodeBlock--code">
+	<div class="bbCodeBlock-title">
+		Code:
+	</div>
+	<div class="bbCodeBlock-content" dir="ltr">
+		<pre class="bbCodeCode" dir="ltr" data-xf-init="code-block" data-lang=""><code>[rob ~ ]$ cat ~/.bash_history | sort |uniq -c|sort -nr|head -n 10
+    223 ls
+     78 cd
+     57 vim domain-search.sh
+     45 cd ..
+     39 git status...</code></pre>
+	</div>
+</div><a href="https://www.linux.org/threads/find-your-top-10-linux-commands-in-your-history.27964/" class="link link--internal">https://www.linux.org/threads/find-your-top-10-linux-commands-in-your-history.27964/</a></div>
+https://www.linux.org/threads/find-your-top-10-linux-commands-in-your-history.27964/
+
+Red Hat Summit 2020 moved to free virtual event
+<div class="bbWrapper">Red Hat is canceling the physical Red Hat Summit presence in San Francisco and rebuilding it as a free, multi-day, virtual event from April 28-29, 2020.<br />
+<br />
+This is a great opportunity to those that wouldn't normally be able to make the trip - or afford the tickets/airfare.  More info on the event site: <a href="https://www.redhat.com/en/summit" target="_blank" class="link link--external" rel="noopener">https://www.redhat.com/en/summit</a><br />
+<br />
+<a href="https://www.linux.org/threads/red-hat-summit-2020-moved-to-free-virtual-event.27952/" class="link link--internal">https://www.linux.org/threads/red-hat-summit-2020-moved-to-free-virtual-event.27952/</a></div>
+https://www.linux.org/threads/red-hat-summit-2020-moved-to-free-virtual-event.27952/
+
